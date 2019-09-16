@@ -1,5 +1,5 @@
 language: csharp
-solution: IONum/IONum/IONum.sln
+solution: ZigZag/ZigZag.sln
 
 after_success:
   - wget https://raw.githubusercontent.com/k3rn31p4nic/travis-ci-discord-webhook/master/send.sh
