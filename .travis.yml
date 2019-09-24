@@ -1,11 +1,12 @@
 language: csharp
-solution:
-- If/If.sln
-- ZigZag/ZigZag.sln
 
-script:
+install:
   - wget https://raw.githubusercontent.com/k3rn31p4nic/travis-ci-discord-webhook/master/send.sh
   - chmod +x send.sh
+
+script:
+  - msbuild /p:Configuration=Release If/If.sln
+  - msbuild /p:Configuration=Release ZigZag/ZigZag.sln
 
 after_success:
   - ./send.sh success $WEBHOOK_URL
