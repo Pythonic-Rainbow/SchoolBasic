@@ -5,6 +5,7 @@ install:
   - chmod +x send.sh
 
 script:
+  - msbuild /p:Configuration=Release Case/Case.sln
   - msbuild /p:Configuration=Release If/If.sln
   - msbuild /p:Configuration=Release ZigZag/ZigZag.sln
 

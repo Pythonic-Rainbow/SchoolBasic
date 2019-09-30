@@ -11,6 +11,7 @@
             Console.WriteLine("B is greter than A.")
         Else : Console.WriteLine("A and B are equal.")
         End If
+        Console.ReadLine()
     End Sub
 
 End Module
