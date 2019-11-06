@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29306.81
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "DoLoopWhile", "DoLoopWhile\DoLoopWhile.vbproj", "{055F1697-AE16-4BBA-AD51-A0A29F5D2AAD}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Step4", "Step4\Step4.vbproj", "{2AF7C23D-F603-4788-B37C-285F55816A32}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "RandomNum", "RandomNum\RandomNum.vbproj", "{647B3800-C149-4B31-B821-9F11CB87B323}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{055F1697-AE16-4BBA-AD51-A0A29F5D2AAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{055F1697-AE16-4BBA-AD51-A0A29F5D2AAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{055F1697-AE16-4BBA-AD51-A0A29F5D2AAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{055F1697-AE16-4BBA-AD51-A0A29F5D2AAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2AF7C23D-F603-4788-B37C-285F55816A32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AF7C23D-F603-4788-B37C-285F55816A32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AF7C23D-F603-4788-B37C-285F55816A32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AF7C23D-F603-4788-B37C-285F55816A32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{647B3800-C149-4B31-B821-9F11CB87B323}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{647B3800-C149-4B31-B821-9F11CB87B323}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{647B3800-C149-4B31-B821-9F11CB87B323}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{647B3800-C149-4B31-B821-9F11CB87B323}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {79C3DEAF-3210-4348-8BAE-18DE78480C3C}
+	EndGlobalSection
+EndGlobal
