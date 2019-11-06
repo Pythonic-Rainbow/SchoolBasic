@@ -11,7 +11,7 @@ script:
   - msbuild /p:Configuration=Release DoWhile/DoWhile.sln
   - msbuild /p:Configuration=Release ForLoop/ForLoop.sln
   - msbuild /p:Configuration=Release If/If.sln
-  - msbuild /p:Configuration=Release LootExt/LootExt.sln
+  - msbuild /p:Configuration=Release LoopExt/LoopExt.sln
   - msbuild /p:Configuration=Release ZigZag/ZigZag.sln
 
 after_success:
