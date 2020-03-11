@@ -9,6 +9,7 @@ asm/6502/readme.txt
 *.bin
 *.nl
 *.code-workspace
+SchoolBasic/packages
 
 
 # User-specific files

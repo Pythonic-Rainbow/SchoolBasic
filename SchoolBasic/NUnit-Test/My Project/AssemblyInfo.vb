@@ -2,34 +2,31 @@
 Imports System.Reflection
 Imports System.Runtime.InteropServices
 
-' General Information about an assembly is controlled through the following
+' General Information about an assembly is controlled through the following 
 ' set of attributes. Change these attribute values to modify the information
 ' associated with an assembly.
 
 ' Review the values of the assembly attributes
 
-<Assembly: AssemblyTitle("Main")>
+<Assembly: AssemblyTitle("nunit.tests.vb")>
 <Assembly: AssemblyDescription("")>
 <Assembly: AssemblyCompany("")>
-<Assembly: AssemblyProduct("Main")>
-<Assembly: AssemblyCopyright("Copyright ©  2020")>
+<Assembly: AssemblyProduct("nunit.tests.vb")>
+<Assembly: AssemblyCopyright("Copyright © 2019")>
 <Assembly: AssemblyTrademark("")>
 
 <Assembly: ComVisible(False)>
 
-'The following GUID is for the ID of the typelib if this project is exposed to COM
-<Assembly: Guid("d9b8602e-0f25-4b35-b435-640bb6e981ae")>
-
 ' Version information for an assembly consists of the following four values:
 '
 '      Major Version
-'      Minor Version
+'      Minor Version 
 '      Build Number
 '      Revision
 '
-' You can specify all the values or you can default the Build and Revision Numbers
+' You can specify all the values or you can default the Build and Revision Numbers 
 ' by using the '*' as shown below:
-' <Assembly: AssemblyVersion("1.0.*")>
+' <Assembly: AssemblyVersion("1.0.*")> 
 
 <Assembly: AssemblyVersion("1.0.0.0")>
 <Assembly: AssemblyFileVersion("1.0.0.0")>
