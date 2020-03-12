@@ -23,4 +23,8 @@
         End If
         Return triangle
     End Function
+
+    Function IsRealNumber(ByVal number As String) As Boolean
+
+    End Function
 End Class

@@ -9,7 +9,7 @@ install:
 
 script:
   - msbuild /p:Configuration=Release SchoolBasic/SchoolBasic.sln
-  - mono ./testrunner/NUnit.ConsoleRunner.3.9.0/tools/nunit3-console.exe ./SchoolBasic/SchoolBasic/NUnit-Test/bin/Release/NUnit-Test.dll
+  - mono ./testrunner/NUnit.ConsoleRunner.3.9.0/tools/nunit3-console.exe ./SchoolBasic/NUnit-Test/bin/Release/NUnit-Test.dll
   - msbuild /p:Configuration=Release Array/Array.sln
   - msbuild /p:Configuration=Release Case/Case.sln
   - msbuild /p:Configuration=Release DoLoop/DoLoop.sln
