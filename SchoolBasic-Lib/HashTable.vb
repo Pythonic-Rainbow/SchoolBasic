@@ -4,7 +4,6 @@
     Public Sub New()
         table = New Dictionary(Of String, List(Of String))
     End Sub
-
     Public Sub Add(ByVal value As String)
         Dim num As Double = 1
         For Each c In value
@@ -16,7 +15,6 @@
         End If
         table(hash).Add(value)
     End Sub
-
     Public Function GetHashTable() As Dictionary(Of String, List(Of String))
         Return table
     End Function

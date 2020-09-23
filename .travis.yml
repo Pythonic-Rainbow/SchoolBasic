@@ -5,19 +5,10 @@ install:
   - wget https://raw.githubusercontent.com/k3rn31p4nic/travis-ci-discord-webhook/master/send.sh
   - chmod +x send.sh
   - nuget restore SchoolBasic/SchoolBasic.sln
-  - nuget install NUnit.Console -Version 3.9.0 -OutputDirectory testrunner
+  # nuget install NUnit.Console -Version 3.9.0 -OutputDirectory testrunner
 
 script:
-  - msbuild /p:Configuration=Release SchoolBasic/SchoolBasic.sln
-  - mono ./testrunner/NUnit.ConsoleRunner.3.9.0/tools/nunit3-console.exe ./SchoolBasic/NUnit-Test/bin/Release/NUnit-Test.dll
-  - msbuild /p:Configuration=Release Array/Array.sln
-  - msbuild /p:Configuration=Release Case/Case.sln
-  - msbuild /p:Configuration=Release DoLoop/DoLoop.sln
-  - msbuild /p:Configuration=Release DoWhile/DoWhile.sln
-  - msbuild /p:Configuration=Release ForLoop/ForLoop.sln
-  - msbuild /p:Configuration=Release If/If.sln
-  - msbuild /p:Configuration=Release LoopExt/LoopExt.sln
-  - msbuild /p:Configuration=Release ZigZag/ZigZag.sln
+  - msbuild /p:Configuration=Release SchoolBasic-Lib/SchoolBasic.sln
 
 after_success:
   - ./send.sh success $WEBHOOK_URL

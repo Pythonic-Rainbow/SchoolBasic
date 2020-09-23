@@ -1,9 +1,7 @@
 ﻿Imports SchoolBasic.api
-
 Module HashTableImpl
-
     Sub Main()
-        Dim hashTable As Hashtable = New Hashtable()
+        Dim hashTable As HashTable = New HashTable()
         Dim key As Char = ""
         Do Until key = "n" Or key = "N"
             Console.Write("Enter name: ")
@@ -14,7 +12,7 @@ Module HashTableImpl
             Console.WriteLine()
         Loop
         For Each k In hashTable.GetHashTable().Keys
-            Console.WriteLine(k + ": ")
+            Console.WriteLine(k + ":")
             For Each value In hashTable.GetHashTable()(k)
                 Console.WriteLine("    " + value)
             Next
