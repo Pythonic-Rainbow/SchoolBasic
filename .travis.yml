@@ -4,7 +4,7 @@ solution: SchoolBasic/SchoolBasic.sln
 install:
   - wget https://raw.githubusercontent.com/k3rn31p4nic/travis-ci-discord-webhook/master/send.sh
   - chmod +x send.sh
-  - nuget restore SchoolBasic/SchoolBasic.sln
+  - nuget restore SchoolBasic-Lib/SchoolBasic.sln
   # nuget install NUnit.Console -Version 3.9.0 -OutputDirectory testrunner
 
 script:

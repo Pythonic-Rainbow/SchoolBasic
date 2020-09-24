@@ -1,4 +1,4 @@
-﻿Imports SchoolBasic.api
+﻿Imports SchoolBasic.api.hash
 Module HashTableImpl
     Sub Main()
         Dim hashTable As HashTable = New HashTable()
