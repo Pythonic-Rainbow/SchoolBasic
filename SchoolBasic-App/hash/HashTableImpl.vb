@@ -1,5 +1,7 @@
 ﻿Imports SchoolBasic.api.hash
+
 Module HashTableImpl
+
     Sub Main()
         Dim hashTable As HashTable = New HashTable()
         Dim key As Char = ""

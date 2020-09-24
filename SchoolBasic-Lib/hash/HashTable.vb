@@ -1,4 +1,5 @@
 ﻿Namespace hash
+
     Public Class HashTable
         Private table As Dictionary(Of String, List(Of String))
 
@@ -23,6 +24,5 @@
         End Function
 
     End Class
-
 
 End Namespace
